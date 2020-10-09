@@ -1,0 +1,124 @@
+.feed {
+  width: 600px;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+
+.post {
+  width: 600px;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  font-family: "Helvetica Neue", sans-serif;
+  /*   background-color: pink; */
+}
+
+.post img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageEle {
+  width: 50px;
+  height: 50px;
+  margin-top: 7px;
+  margin-right: 5px;
+  margin-left: 10px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 0.5px solid lightgrey;
+}
+
+.bodyEle {
+  width: 535px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+/*   background-color: purple; */
+}
+
+.content {
+  margin-left: 5px;
+  margin-bottom: 2px;
+  margin-top: 7px;
+  margin-right: 10px;
+/* background-color: green; */
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2px;
+  /*   background-color: yellow; */
+}
+
+.names div {
+  margin-right: 5px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.name i {
+  margin-left: 3px;
+  color: #47A0EB;
+}
+
+.username {
+  color: grey;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  /*   background-color: orange; */
+}
+
+.actions div {
+  display: flex;
+  margin-right: 80px;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+}
+
+.actions div:first-child {
+  position: absolute;
+  left: 75px;
+}
+
+.actions div:nth-child(2) {
+  position: absolute;
+  left: 210px;
+}
+
+.actions div:nth-child(3) {
+  position: absolute;
+  left: 345px;
+}
+
+.actions div:last-child {
+  margin-right: 0px;
+  position: absolute;
+  left: 480px;
+}
+
+.actions i {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions div:hover {
+  cursor: pointer;
+}
